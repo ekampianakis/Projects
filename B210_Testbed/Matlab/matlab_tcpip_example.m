@@ -10,11 +10,17 @@ tx_filename = '../Data/data_tx1';
 properties_file = '../Data/properties_file';
 
 %USRP properties
-Fs = 1e6; %Hz
-Mclk = 10e6; %Hz
-TX_gain = 10; %dB
+Fs = 3e6; %Hz
+Mclk = 30e6; %Hz
+TX_gain = 15; %dB
 RX_gain = 10; %dB
 F_center = 915e6; %Hz
+
+
+%Signal Properties
+Ts = 1/Fs;
+T_sig = 0.3;
+Num_samples = Fs*T_sig;
 
 
 %Connection properties

@@ -41,6 +41,9 @@ center_freq = 915e6
 mclk = 10e6
 num_samples = 0
 
+# Simple
+
+
 
 def wait_for_command(connection):
  while True:
@@ -103,7 +106,7 @@ class file_sinks(gr.top_block):
         self.uhd_usrp_source_0.set_gain(self.rx_gain, 0)
         self.uhd_usrp_source_0.set_center_freq(self.center_freq, 1)
         self.uhd_usrp_source_0.set_gain(self.rx_gain, 1)
-        self.uhd_usrp_source_0.set_bandwidth(self.samp_rate/2);
+        self.uhd_usrp_source_0.set_bandwidth(self.samp_rate);
         
 
         
@@ -123,9 +126,8 @@ class file_sinks(gr.top_block):
         self.uhd_usrp_sink_0.set_center_freq(self.center_freq, 1)
         self.uhd_usrp_sink_0.set_gain(self.tx_gain, 1)
         self.uhd_usrp_sink_0.set_antenna("TX/RX1", 1)
-        self.uhd_usrp_sink_0.set_bandwidth(self.samp_rate/2);
-    
-
+        self.uhd_usrp_sink_0.set_bandwidth(self.samp_rate);
+        
 
 
         self.blocks_file_source_0 = blocks.file_source(gr.sizeof_gr_complex*1, self.tx_filename, False)
@@ -178,105 +180,86 @@ if __name__ == '__main__':
     rx_gain =  float(mat_contents['RX_gain'][0][0])
     center_freq = float(mat_contents['F_center'][0][0])
     mclk = float(mat_contents['Mclk'][0][0])
-    tcp_port = float(mat_contents['Port'][0][0])
+    tcp_port = int(mat_contents['Port'][0][0])
     tx_time = float(mat_contents['T_sig'][0][0])
     num_samples = int(mat_contents['Num_samples'][0][0])
+    the_timeout = int(mat_contents['Timeout'][0][0])
+    freq_step = float(mat_contents['FreqStep'][0][0])
+
 
     print 'Fs = ' + repr(samp_rate/1e6)
+    print 'Freq step = ' + repr(freq_step/1e6)
     print 'TX file = ' + repr(tx_filename)
     print 'MCLK = ' + repr(mclk/1e6)
     print 'Center Freq. = ' + repr(center_freq/1e6)
     print 'RX file 1 = ' + repr(rx_filename1)
     print 'RX file 2 = ' + repr(rx_filename2)
     print 'TX time = ' + repr(tx_time)
-
-
-
-    # # Create a TCP/IP socket
-    # sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    # # Bind the socket to the port
-    # server_address = ('localhost', tcp_port)
-    # print >>sys.stderr, 'Starting up on %s port %s' % server_address
-    # sock.bind(server_address)
-    # # Listen for incoming connections
-    # sock.listen(1)
-
-    # print >>sys.stderr, 'Waiting for matlab a connection...'
-    # connection, client_address = sock.accept()
-    # print >>sys.stderr, 'Connection from', client_address
-
-
-
-    # try:
-    #     wait_for_command(connection)
-    #     tb = file_sinks()
-    #     reply_to_command(connection,'USRP Initialized, informing Matlab..','MR\n')
-    #     while True: 
-            
-    #             while True:
-
-    #                 #Wait for matlab command to start
-    #                 wait_for_command(connection)
-                    
-    #                 tb.blocks_file_sink_0.close()
-    #                 tb.blocks_file_sink_0.open(rx_filename1)
-
-    #                 tb.blocks_file_sink_0_0.close()
-    #                 tb.blocks_file_sink_0_0.open(rx_filename2)
-
-    #                 tb.start()
-    #                 reply_to_command(connection,'Started reception, Waiting for stop message..','MR\n')
-    #                 #Wait for matlab command to stop
-                    
-    #                 wait_for_command(connection)
-    #                 tb.stop()
-    #                 tb.wait()
-    #                 tb.blocks_file_source_0.seek(0,0)
-                    
-    #                 reply_to_command(connection,'Stopped reception, Informing matlab..','MR\n')
-
-    # finally:
-    #         print 'Interrupt, exiting..'
-    #         connection.close()
-    #         tb.stop()
-    #         tb.wait()
-
-
-
-    total = 0
-    timeouts = 0
-
-
-    # Simple
-    @timeout(3)
-    def execute_me():
+ 
+    tb = file_sinks()
+    @timeout(the_timeout)
+    def run_flowgraph(tb):
         tb = file_sinks()
         tb.start()
         tb.wait()
         tb.stop()
         tb.wait()
-    
-    try:
-        execute_me()
-    except(TimeoutError):
-        pass
 
-    while(1):
+    TCP = True
+
+    if(TCP):
+        # Create a TCP/IP socket
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        # Bind the socket to the port
+        server_address = ('localhost', tcp_port)
+        print >>sys.stderr, 'Starting up on %s port %s' % server_address
+        sock.bind(server_address)
+        # Listen for incoming connections
+        sock.listen(1)
+
+
+
+
+        print >>sys.stderr, 'Waiting for matlab a connection...'
+        connection, client_address = sock.accept()
+        print >>sys.stderr, 'Connection from', client_address
+        timeouts = 0
+        total = 0
+        while(1):
+            total = total + 1     
+            try:
+                wait_for_command(connection)   
+                run_flowgraph(tb)            
+                center_freq = center_freq + freq_step
+                reply_to_command(connection,'Next..','MR\n')
+                print 'stopped'
+            except(KeyboardInterrupt):
+                connection.close()
+                print total
+                print timeouts
+                sys.exit(-1)
+            except(TimeoutError):            
+                print '--------------Timeout Error--------------'
+                timeouts = timeouts + 1
+                pass
+
+
+
+    else:
+
         
-        try:
-            total = total +1
-            center_freq = center_freq + samp_rate/2
-            execute_me()
-            print 'stopped'
-            time.sleep(2)
-        except(KeyboardInterrupt):
-            print total
-            print timeouts
-            sys.exit(-1)
-        except(TimeoutError):
-            timeouts = timeouts+1
-            print 'Timeout Error'
-            pass
         
+        while(1):     
+            try:
+                run_flowgraph(tb)            
+                center_freq = center_freq + 1e6
+                print 'stopped'
+                # time.sleep(2)
+            except(KeyboardInterrupt):
+                sys.exit(-1)
+            except(TimeoutError):            
+                print 'Timeout Error'
+                pass
+            
+            
         
-    

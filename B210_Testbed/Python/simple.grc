@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ASCII'?>
 <?grc format='1' created='3.7.5'?>
 <flow_graph>
-  <timestamp>Tue Nov 18 13:48:49 2014</timestamp>
+  <timestamp>Tue Nov 18 13:52:05 2014</timestamp>
   <block>
     <key>options</key>
     <param>
@@ -46,7 +46,7 @@
     </param>
     <param>
       <key>max_nouts</key>
-      <value>1024</value>
+      <value>0</value>
     </param>
     <param>
       <key>realtime_scheduling</key>
@@ -69,7 +69,7 @@
     <key>variable</key>
     <param>
       <key>id</key>
-      <value>items</value>
+      <value>samp_rate</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -77,7 +77,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>10000000</value>
+      <value>32000</value>
     </param>
     <param>
       <key>alias</key>
@@ -85,88 +85,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(-8, 411)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>variable</key>
-    <param>
-      <key>id</key>
-      <value>center_freq</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>915e6</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(8, 275)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>variable</key>
-    <param>
-      <key>id</key>
-      <value>rx_gain</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>10</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(8, 211)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>variable</key>
-    <param>
-      <key>id</key>
-      <value>tx_gain</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>10</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(8, 83)</value>
+      <value>(8, 75)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -193,7 +112,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 339)</value>
+      <value>(24, 387)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -204,7 +123,7 @@
     <key>variable</key>
     <param>
       <key>id</key>
-      <value>samp_rate</value>
+      <value>samp_rate_0</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -220,7 +139,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 147)</value>
+      <value>(24, 195)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -228,30 +147,146 @@
     </param>
   </block>
   <block>
-    <key>blocks_file_source</key>
+    <key>variable</key>
     <param>
       <key>id</key>
-      <value>blocks_file_source_0</value>
+      <value>rx_gain</value>
     </param>
     <param>
       <key>_enabled</key>
       <value>True</value>
     </param>
     <param>
-      <key>file</key>
-      <value>/home/kampianakis/Dropbox/MainRepo/Projects/B210_Testbed/Data/data_tx1</value>
+      <key>value</key>
+      <value>10</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(24, 259)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>id</key>
+      <value>center_freq</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>915e6</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(24, 323)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>id</key>
+      <value>tx_gain</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>10</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(24, 131)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>id</key>
+      <value>items</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>10000000</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(24, 459)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>analog_sig_source_x</key>
+    <param>
+      <key>id</key>
+      <value>analog_sig_source_x_1</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
     </param>
     <param>
       <key>type</key>
       <value>complex</value>
     </param>
     <param>
-      <key>repeat</key>
-      <value>True</value>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
     </param>
     <param>
-      <key>vlen</key>
+      <key>waveform</key>
+      <value>analog.GR_COS_WAVE</value>
+    </param>
+    <param>
+      <key>freq</key>
+      <value>1000</value>
+    </param>
+    <param>
+      <key>amp</key>
       <value>1</value>
+    </param>
+    <param>
+      <key>offset</key>
+      <value>0</value>
     </param>
     <param>
       <key>alias</key>
@@ -271,7 +306,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(280, 91)</value>
+      <value>(472, 112)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -279,10 +314,10 @@
     </param>
   </block>
   <block>
-    <key>blocks_null_source</key>
+    <key>analog_sig_source_x</key>
     <param>
       <key>id</key>
-      <value>blocks_null_source_0</value>
+      <value>analog_sig_source_x_0</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -293,16 +328,24 @@
       <value>complex</value>
     </param>
     <param>
-      <key>vlen</key>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
+    </param>
+    <param>
+      <key>waveform</key>
+      <value>analog.GR_COS_WAVE</value>
+    </param>
+    <param>
+      <key>freq</key>
+      <value>1000</value>
+    </param>
+    <param>
+      <key>amp</key>
       <value>1</value>
     </param>
     <param>
-      <key>num_outputs</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>bus_conns</key>
-      <value>[[0,],]</value>
+      <key>offset</key>
+      <value>0</value>
     </param>
     <param>
       <key>alias</key>
@@ -322,7 +365,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(352, 160)</value>
+      <value>(456, 251)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1005,54 +1048,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(896, 67)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>blocks_file_sink</key>
-    <param>
-      <key>id</key>
-      <value>blocks_file_sink_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>file</key>
-      <value>/home/kampianakis/Dropbox/MainRepo/Projects/B210_Testbed/Data/data_rx1</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>complex</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>unbuffered</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>append</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(872, 219)</value>
+      <value>(904, 211)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1739,7 +1735,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(248, 251)</value>
+      <value>(320, 403)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1747,10 +1743,10 @@
     </param>
   </block>
   <block>
-    <key>blocks_head</key>
+    <key>wxgui_scopesink2</key>
     <param>
       <key>id</key>
-      <value>blocks_head_0_0</value>
+      <value>wxgui_scopesink2_0</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -1761,161 +1757,56 @@
       <value>complex</value>
     </param>
     <param>
-      <key>num_items</key>
-      <value>items</value>
+      <key>title</key>
+      <value>Scope Plot</value>
     </param>
     <param>
-      <key>vlen</key>
-      <value>1</value>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
     </param>
     <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
+      <key>v_scale</key>
       <value>0</value>
     </param>
     <param>
-      <key>maxoutbuf</key>
+      <key>v_offset</key>
       <value>0</value>
     </param>
     <param>
-      <key>_coordinate</key>
-      <value>(640, 235)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>blocks_head</key>
-    <param>
-      <key>id</key>
-      <value>blocks_head_0_0_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>complex</value>
-    </param>
-    <param>
-      <key>num_items</key>
-      <value>items</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
+      <key>t_scale</key>
       <value>0</value>
     </param>
     <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(680, 363)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>blocks_head</key>
-    <param>
-      <key>id</key>
-      <value>blocks_head_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>complex</value>
-    </param>
-    <param>
-      <key>num_items</key>
-      <value>items</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(632, 107)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>blocks_file_sink</key>
-    <param>
-      <key>id</key>
-      <value>blocks_file_sink_1</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>file</key>
-      <value>/home/kampianakis/Dropbox/MainRepo/Projects/B210_Testbed/Data/data_rx2</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>complex</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>unbuffered</key>
+      <key>ac_couple</key>
       <value>False</value>
     </param>
     <param>
-      <key>append</key>
+      <key>xy_mode</key>
       <value>False</value>
+    </param>
+    <param>
+      <key>num_inputs</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>win_size</key>
+      <value></value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value></value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value></value>
+    </param>
+    <param>
+      <key>trig_mode</key>
+      <value>wxgui.TRIG_MODE_AUTO</value>
+    </param>
+    <param>
+      <key>y_axis_label</key>
+      <value>Counts</value>
     </param>
     <param>
       <key>alias</key>
@@ -1927,7 +1818,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(936, 363)</value>
+      <value>(816, 419)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1935,45 +1826,27 @@
     </param>
   </block>
   <connection>
-    <source_block_id>blocks_file_source_0</source_block_id>
-    <sink_block_id>blocks_head_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>blocks_head_0</source_block_id>
+    <source_block_id>analog_sig_source_x_1</source_block_id>
     <sink_block_id>uhd_usrp_sink_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_null_source_0</source_block_id>
+    <source_block_id>analog_sig_source_x_0</source_block_id>
     <sink_block_id>uhd_usrp_sink_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>1</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_head_0_0</source_block_id>
-    <sink_block_id>blocks_file_sink_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>blocks_head_0_0_0</source_block_id>
-    <sink_block_id>blocks_file_sink_1</sink_block_id>
+    <source_block_id>uhd_usrp_source_0</source_block_id>
+    <sink_block_id>wxgui_scopesink2_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
     <source_block_id>uhd_usrp_source_0</source_block_id>
-    <sink_block_id>blocks_head_0_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>uhd_usrp_source_0</source_block_id>
-    <sink_block_id>blocks_head_0_0_0</sink_block_id>
+    <sink_block_id>wxgui_scopesink2_0</sink_block_id>
     <source_key>1</source_key>
-    <sink_key>0</sink_key>
+    <sink_key>1</sink_key>
   </connection>
 </flow_graph>

@@ -10,16 +10,16 @@ tx_filename = '../Data/data_tx1';
 properties_file = '../Data/properties_file';
 
 %USRP properties
-Fs = 5e6; %Hz
-Mclk = 20e6; %Hz
-TX_gain = 15; %dB
-RX_gain = 10; %dB
-F_center = 915e6; %Hz
+Fs = 2e6; %Hz
+Mclk = 24e6; %Hz
+TX_gain = 17; %dB
+RX_gain = 15; %dB
+F_center = 60e6; %Hz
 
 
 %Signal Properties
 Ts = 1/Fs;
-T_sig = 1;
+T_sig = 0.3;
 Num_samples = Fs*T_sig;
 
 
@@ -123,7 +123,11 @@ phi2 = atan(imag(y2(mpos2))./real(y2(mpos2)))*180/pi;
 
 damp = 10*log10(mval1/mval2)
 
-dphi = phi1 - phi2
+dphi = phi1 - phi2;
+if(dphi < 0)
+    dphi = dphi + 180;
+end
+dphi
 
 
 
