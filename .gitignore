@@ -39,3 +39,4 @@ Thumbs.db
 # Dropbox stuff #
 ######################
 *.attributes
+*.dropbox
