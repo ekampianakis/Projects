@@ -8,13 +8,18 @@ output_args = 0;
 % Receive lines of data fr om server
 retries = 0;
 
+if(isvalid(the_socket))
 while(retries < MAX_RETRIES)
     fprintf(the_socket, command);
     % Pause for the communication delay, if needed.
     pause(0.01)
     
-    DataReceived = fscanf(the_socket);
-    
+    if(strcmp(the_socket.Status,'open')==1)
+        DataReceived = fscanf(the_socket);
+    else
+        output_args = 0;
+        return
+    end
     if(~isempty(DataReceived))
         output_args = 1;
         break
@@ -22,5 +27,7 @@ while(retries < MAX_RETRIES)
         retries = retries +1;
     end
 end
-
+else
+    output_args = 0;
+end
 

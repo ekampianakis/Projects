@@ -1,0 +1,3916 @@
+linux; GNU C++ version 4.6.3; Boost_104800; UHD_003.008.000-19-g5f9f1ed3
+
+Fs = 2.5
+Freq step = 1.25
+TX file = '../Data/data_tx1'
+MCLK = 5.0
+Center Freq. = 700.0
+RX file 1 = '../Data/data_rx1'
+RX file 2 = '../Data/data_rx2'
+TX time = 0.3
+-- Operating over USB 3.
+-- Initialize CODEC control...
+-- Initialize Radio control...
+-- Performing register loopback test... pass
+-- Performing register loopback test... pass
+-- Performing CODEC loopback test... pass
+-- Performing CODEC loopback test... pass
+-- Asking for clock rate 32.000000 MHz
+-- Actually got clock rate 32.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 700.000000 MHz
+-- 
+-- Successfully tuned to 700.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 700.000000 MHz
+-- 
+-- Successfully tuned to 700.000000 MHz
+-- 
+Starting up on localhost port 58882
+Waiting for matlab a connection...
+Connection from ('127.0.0.1', 56111)
+Waiting for matlab command
+Command received
+981250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 981.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 981.250000 MHz
+--     RF LO Result: 981.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 981.250000 MHz
+-- 
+-- Tune Request: 981.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 981.250000 MHz
+--     RF LO Result: 981.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 981.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 981.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 981.250000 MHz
+--     RF LO Result: 981.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 981.250000 MHz
+-- 
+-- Tune Request: 981.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 981.250000 MHz
+--     RF LO Result: 981.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 981.250000 MHz
+-- 
+-10.6098780632
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+982500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 982.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 982.500000 MHz
+--     RF LO Result: 982.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 982.500000 MHz
+-- 
+-- Tune Request: 982.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 982.500000 MHz
+--     RF LO Result: 982.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 982.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 982.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 982.500000 MHz
+--     RF LO Result: 982.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 982.500000 MHz
+-- 
+-- Tune Request: 982.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 982.500000 MHz
+--     RF LO Result: 982.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 982.500000 MHz
+-- 
+-14.5843958855
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+983750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 983.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 983.750000 MHz
+--     RF LO Result: 983.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 983.750000 MHz
+-- 
+-- Tune Request: 983.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 983.750000 MHz
+--     RF LO Result: 983.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 983.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 983.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 983.750000 MHz
+--     RF LO Result: 983.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 983.750000 MHz
+-- 
+-- Tune Request: 983.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 983.750000 MHz
+--     RF LO Result: 983.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 983.750000 MHz
+-- 
+-18.5441710949
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+985000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 985.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 985.000000 MHz
+--     RF LO Result: 984.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 985.000000 MHz
+-- 
+-- Tune Request: 985.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 985.000000 MHz
+--     RF LO Result: 984.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 985.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 985.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 985.000000 MHz
+--     RF LO Result: 984.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 985.000000 MHz
+-- 
+-- Tune Request: 985.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 985.000000 MHz
+--     RF LO Result: 984.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 985.000000 MHz
+-- 
+-22.4947600365
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+986250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 986.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 986.250000 MHz
+--     RF LO Result: 986.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 986.250000 MHz
+-- 
+-- Tune Request: 986.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 986.250000 MHz
+--     RF LO Result: 986.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 986.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 986.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 986.250000 MHz
+--     RF LO Result: 986.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 986.250000 MHz
+-- 
+-- Tune Request: 986.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 986.250000 MHz
+--     RF LO Result: 986.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 986.250000 MHz
+-- 
+-26.4686710835
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+987500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 987.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 987.500000 MHz
+--     RF LO Result: 987.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 987.500000 MHz
+-- 
+-- Tune Request: 987.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 987.500000 MHz
+--     RF LO Result: 987.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 987.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 987.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 987.500000 MHz
+--     RF LO Result: 987.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 987.500000 MHz
+-- 
+-- Tune Request: 987.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 987.500000 MHz
+--     RF LO Result: 987.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 987.500000 MHz
+-- 
+-30.3947999477
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+988750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 988.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 988.750000 MHz
+--     RF LO Result: 988.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 988.750000 MHz
+-- 
+-- Tune Request: 988.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 988.750000 MHz
+--     RF LO Result: 988.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 988.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 988.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 988.750000 MHz
+--     RF LO Result: 988.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 988.750000 MHz
+-- 
+-- Tune Request: 988.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 988.750000 MHz
+--     RF LO Result: 988.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 988.750000 MHz
+-- 
+-34.3340280056
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+990000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 990.000000 MHz
+-- 
+-- Successfully tuned to 990.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 990.000000 MHz
+-- 
+-- Successfully tuned to 990.000000 MHz
+-- 
+-38.2630119324
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+991250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 991.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 991.250000 MHz
+--     RF LO Result: 991.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 991.250000 MHz
+-- 
+-- Tune Request: 991.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 991.250000 MHz
+--     RF LO Result: 991.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 991.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 991.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 991.250000 MHz
+--     RF LO Result: 991.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 991.250000 MHz
+-- 
+-- Tune Request: 991.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 991.250000 MHz
+--     RF LO Result: 991.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 991.250000 MHz
+-- 
+-42.2221639156
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+992500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 992.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 992.500000 MHz
+--     RF LO Result: 992.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 992.500000 MHz
+-- 
+-- Tune Request: 992.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 992.500000 MHz
+--     RF LO Result: 992.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 992.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 992.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 992.500000 MHz
+--     RF LO Result: 992.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 992.500000 MHz
+-- 
+-- Tune Request: 992.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 992.500000 MHz
+--     RF LO Result: 992.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 992.500000 MHz
+-- 
+-46.1761989594
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+993750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 993.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 993.750000 MHz
+--     RF LO Result: 993.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 993.750000 MHz
+-- 
+-- Tune Request: 993.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 993.750000 MHz
+--     RF LO Result: 993.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 993.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 993.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 993.750000 MHz
+--     RF LO Result: 993.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 993.750000 MHz
+-- 
+-- Tune Request: 993.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 993.750000 MHz
+--     RF LO Result: 993.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 993.750000 MHz
+-- 
+-50.1412630081
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+995000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 995.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 995.000000 MHz
+--     RF LO Result: 994.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 995.000000 MHz
+-- 
+-- Tune Request: 995.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 995.000000 MHz
+--     RF LO Result: 994.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 995.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 995.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 995.000000 MHz
+--     RF LO Result: 994.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 995.000000 MHz
+-- 
+-- Tune Request: 995.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 995.000000 MHz
+--     RF LO Result: 994.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 995.000000 MHz
+-- 
+-54.1152629852
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+996250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 996.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 996.250000 MHz
+--     RF LO Result: 996.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 996.250000 MHz
+-- 
+-- Tune Request: 996.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 996.250000 MHz
+--     RF LO Result: 996.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 996.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 996.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 996.250000 MHz
+--     RF LO Result: 996.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 996.250000 MHz
+-- 
+-- Tune Request: 996.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 996.250000 MHz
+--     RF LO Result: 996.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 996.250000 MHz
+-- 
+-58.1243109703
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+997500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 997.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 997.500000 MHz
+--     RF LO Result: 997.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 997.500000 MHz
+-- 
+-- Tune Request: 997.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 997.500000 MHz
+--     RF LO Result: 997.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 997.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 997.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 997.500000 MHz
+--     RF LO Result: 997.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 997.500000 MHz
+-- 
+-- Tune Request: 997.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 997.500000 MHz
+--     RF LO Result: 997.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 997.500000 MHz
+-- 
+-62.129062891
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+998750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 998.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 998.750000 MHz
+--     RF LO Result: 998.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 998.750000 MHz
+-- 
+-- Tune Request: 998.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 998.750000 MHz
+--     RF LO Result: 998.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 998.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 998.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 998.750000 MHz
+--     RF LO Result: 998.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 998.750000 MHz
+-- 
+-- Tune Request: 998.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 998.750000 MHz
+--     RF LO Result: 998.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 998.750000 MHz
+-- 
+-66.190584898
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1000000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1000.000000 MHz
+-- 
+-- Successfully tuned to 1000.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1000.000000 MHz
+-- 
+-- Successfully tuned to 1000.000000 MHz
+-- 
+-70.1514420509
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1001250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1001.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1001.250000 MHz
+--     RF LO Result: 1001.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1001.250000 MHz
+-- 
+-- Tune Request: 1001.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1001.250000 MHz
+--     RF LO Result: 1001.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1001.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1001.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1001.250000 MHz
+--     RF LO Result: 1001.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1001.250000 MHz
+-- 
+-- Tune Request: 1001.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1001.250000 MHz
+--     RF LO Result: 1001.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1001.250000 MHz
+-- 
+-74.1096839905
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1002500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1002.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1002.500000 MHz
+--     RF LO Result: 1002.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1002.500000 MHz
+-- 
+-- Tune Request: 1002.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1002.500000 MHz
+--     RF LO Result: 1002.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1002.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1002.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1002.500000 MHz
+--     RF LO Result: 1002.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1002.500000 MHz
+-- 
+-- Tune Request: 1002.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1002.500000 MHz
+--     RF LO Result: 1002.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1002.500000 MHz
+-- 
+-78.051735878
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1003750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1003.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1003.750000 MHz
+--     RF LO Result: 1003.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1003.750000 MHz
+-- 
+-- Tune Request: 1003.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1003.750000 MHz
+--     RF LO Result: 1003.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1003.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1003.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1003.750000 MHz
+--     RF LO Result: 1003.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1003.750000 MHz
+-- 
+-- Tune Request: 1003.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1003.750000 MHz
+--     RF LO Result: 1003.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1003.750000 MHz
+-- 
+-81.9827671051
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1005000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1005.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1005.000000 MHz
+--     RF LO Result: 1004.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1005.000000 MHz
+-- 
+-- Tune Request: 1005.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1005.000000 MHz
+--     RF LO Result: 1004.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1005.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1005.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1005.000000 MHz
+--     RF LO Result: 1004.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1005.000000 MHz
+-- 
+-- Tune Request: 1005.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1005.000000 MHz
+--     RF LO Result: 1004.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1005.000000 MHz
+-- 
+-85.92542696
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1006250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1006.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1006.250000 MHz
+--     RF LO Result: 1006.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1006.250000 MHz
+-- 
+-- Tune Request: 1006.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1006.250000 MHz
+--     RF LO Result: 1006.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1006.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1006.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1006.250000 MHz
+--     RF LO Result: 1006.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1006.250000 MHz
+-- 
+-- Tune Request: 1006.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1006.250000 MHz
+--     RF LO Result: 1006.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1006.250000 MHz
+-- 
+-89.8748910427
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1007500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1007.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1007.500000 MHz
+--     RF LO Result: 1007.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1007.500000 MHz
+-- 
+-- Tune Request: 1007.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1007.500000 MHz
+--     RF LO Result: 1007.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1007.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1007.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1007.500000 MHz
+--     RF LO Result: 1007.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1007.500000 MHz
+-- 
+-- Tune Request: 1007.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1007.500000 MHz
+--     RF LO Result: 1007.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1007.500000 MHz
+-- 
+-93.8949658871
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1008750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1008.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1008.750000 MHz
+--     RF LO Result: 1008.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1008.750000 MHz
+-- 
+-- Tune Request: 1008.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1008.750000 MHz
+--     RF LO Result: 1008.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1008.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1008.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1008.750000 MHz
+--     RF LO Result: 1008.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1008.750000 MHz
+-- 
+-- Tune Request: 1008.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1008.750000 MHz
+--     RF LO Result: 1008.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1008.750000 MHz
+-- 
+-97.8431499004
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1010000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1010.000000 MHz
+-- 
+-- Successfully tuned to 1010.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1010.000000 MHz
+-- 
+-- Successfully tuned to 1010.000000 MHz
+-- 
+-101.822122097
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1011250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1011.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1011.250000 MHz
+--     RF LO Result: 1011.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1011.250000 MHz
+-- 
+-- Tune Request: 1011.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1011.250000 MHz
+--     RF LO Result: 1011.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1011.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1011.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1011.250000 MHz
+--     RF LO Result: 1011.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1011.250000 MHz
+-- 
+-- Tune Request: 1011.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1011.250000 MHz
+--     RF LO Result: 1011.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1011.250000 MHz
+-- 
+-105.780196905
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1012500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1012.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1012.500000 MHz
+--     RF LO Result: 1012.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1012.500000 MHz
+-- 
+-- Tune Request: 1012.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1012.500000 MHz
+--     RF LO Result: 1012.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1012.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1012.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1012.500000 MHz
+--     RF LO Result: 1012.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1012.500000 MHz
+-- 
+-- Tune Request: 1012.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1012.500000 MHz
+--     RF LO Result: 1012.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1012.500000 MHz
+-- 
+-109.803622007
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1013750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1013.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1013.750000 MHz
+--     RF LO Result: 1013.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1013.750000 MHz
+-- 
+-- Tune Request: 1013.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1013.750000 MHz
+--     RF LO Result: 1013.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1013.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1013.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1013.750000 MHz
+--     RF LO Result: 1013.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1013.750000 MHz
+-- 
+-- Tune Request: 1013.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1013.750000 MHz
+--     RF LO Result: 1013.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1013.750000 MHz
+-- 
+-113.757370949
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1015000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1015.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1015.000000 MHz
+--     RF LO Result: 1014.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1015.000000 MHz
+-- 
+-- Tune Request: 1015.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1015.000000 MHz
+--     RF LO Result: 1014.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1015.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1015.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1015.000000 MHz
+--     RF LO Result: 1014.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1015.000000 MHz
+-- 
+-- Tune Request: 1015.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1015.000000 MHz
+--     RF LO Result: 1014.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1015.000000 MHz
+-- 
+-117.7379601
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1016250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1016.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1016.250000 MHz
+--     RF LO Result: 1016.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1016.250000 MHz
+-- 
+-- Tune Request: 1016.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1016.250000 MHz
+--     RF LO Result: 1016.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1016.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1016.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1016.250000 MHz
+--     RF LO Result: 1016.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1016.250000 MHz
+-- 
+-- Tune Request: 1016.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1016.250000 MHz
+--     RF LO Result: 1016.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1016.250000 MHz
+-- 
+-121.722071886
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1017500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1017.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1017.500000 MHz
+--     RF LO Result: 1017.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1017.500000 MHz
+-- 
+-- Tune Request: 1017.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1017.500000 MHz
+--     RF LO Result: 1017.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1017.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1017.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1017.500000 MHz
+--     RF LO Result: 1017.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1017.500000 MHz
+-- 
+-- Tune Request: 1017.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1017.500000 MHz
+--     RF LO Result: 1017.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1017.500000 MHz
+-- 
+-125.678066015
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1018750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1018.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1018.750000 MHz
+--     RF LO Result: 1018.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1018.750000 MHz
+-- 
+-- Tune Request: 1018.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1018.750000 MHz
+--     RF LO Result: 1018.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1018.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1018.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1018.750000 MHz
+--     RF LO Result: 1018.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1018.750000 MHz
+-- 
+-- Tune Request: 1018.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1018.750000 MHz
+--     RF LO Result: 1018.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1018.750000 MHz
+-- 
+-129.692318916
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1020000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1020.000000 MHz
+-- 
+-- Successfully tuned to 1020.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1020.000000 MHz
+-- 
+-- Successfully tuned to 1020.000000 MHz
+-- 
+-133.640156031
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1021250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1021.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1021.250000 MHz
+--     RF LO Result: 1021.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1021.250000 MHz
+-- 
+-- Tune Request: 1021.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1021.250000 MHz
+--     RF LO Result: 1021.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1021.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1021.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1021.250000 MHz
+--     RF LO Result: 1021.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1021.250000 MHz
+-- 
+-- Tune Request: 1021.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1021.250000 MHz
+--     RF LO Result: 1021.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1021.250000 MHz
+-- 
+-137.5824821
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1022500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1022.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1022.500000 MHz
+--     RF LO Result: 1022.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1022.500000 MHz
+-- 
+-- Tune Request: 1022.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1022.500000 MHz
+--     RF LO Result: 1022.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1022.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1022.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1022.500000 MHz
+--     RF LO Result: 1022.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1022.500000 MHz
+-- 
+-- Tune Request: 1022.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1022.500000 MHz
+--     RF LO Result: 1022.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1022.500000 MHz
+-- 
+-141.533268929
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1023750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1023.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1023.750000 MHz
+--     RF LO Result: 1023.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1023.750000 MHz
+-- 
+-- Tune Request: 1023.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1023.750000 MHz
+--     RF LO Result: 1023.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1023.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1023.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1023.750000 MHz
+--     RF LO Result: 1023.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1023.750000 MHz
+-- 
+-- Tune Request: 1023.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1023.750000 MHz
+--     RF LO Result: 1023.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1023.750000 MHz
+-- 
+-145.471755981
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1025000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1025.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1025.000000 MHz
+--     RF LO Result: 1024.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1025.000000 MHz
+-- 
+-- Tune Request: 1025.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1025.000000 MHz
+--     RF LO Result: 1024.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1025.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1025.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1025.000000 MHz
+--     RF LO Result: 1024.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1025.000000 MHz
+-- 
+-- Tune Request: 1025.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1025.000000 MHz
+--     RF LO Result: 1024.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1025.000000 MHz
+-- 
+-149.423425913
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1026250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1026.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1026.250000 MHz
+--     RF LO Result: 1026.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1026.250000 MHz
+-- 
+-- Tune Request: 1026.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1026.250000 MHz
+--     RF LO Result: 1026.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1026.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1026.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1026.250000 MHz
+--     RF LO Result: 1026.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1026.250000 MHz
+-- 
+-- Tune Request: 1026.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1026.250000 MHz
+--     RF LO Result: 1026.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1026.250000 MHz
+-- 
+-153.390045881
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1027500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1027.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1027.500000 MHz
+--     RF LO Result: 1027.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1027.500000 MHz
+-- 
+-- Tune Request: 1027.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1027.500000 MHz
+--     RF LO Result: 1027.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1027.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1027.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1027.500000 MHz
+--     RF LO Result: 1027.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1027.500000 MHz
+-- 
+-- Tune Request: 1027.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1027.500000 MHz
+--     RF LO Result: 1027.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1027.500000 MHz
+-- 
+-157.393964052
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1028750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1028.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1028.750000 MHz
+--     RF LO Result: 1028.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1028.750000 MHz
+-- 
+-- Tune Request: 1028.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1028.750000 MHz
+--     RF LO Result: 1028.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1028.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1028.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1028.750000 MHz
+--     RF LO Result: 1028.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1028.750000 MHz
+-- 
+-- Tune Request: 1028.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1028.750000 MHz
+--     RF LO Result: 1028.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1028.750000 MHz
+-- 
+-161.400867939
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1030000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1030.000000 MHz
+-- 
+-- Successfully tuned to 1030.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1030.000000 MHz
+-- 
+-- Successfully tuned to 1030.000000 MHz
+-- 
+-165.390081882
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1031250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1031.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1031.250000 MHz
+--     RF LO Result: 1031.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1031.250000 MHz
+-- 
+-- Tune Request: 1031.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1031.250000 MHz
+--     RF LO Result: 1031.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1031.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1031.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1031.250000 MHz
+--     RF LO Result: 1031.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1031.250000 MHz
+-- 
+-- Tune Request: 1031.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1031.250000 MHz
+--     RF LO Result: 1031.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1031.250000 MHz
+-- 
+-169.34470892
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1032500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1032.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1032.500000 MHz
+--     RF LO Result: 1032.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1032.500000 MHz
+-- 
+-- Tune Request: 1032.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1032.500000 MHz
+--     RF LO Result: 1032.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1032.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1032.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1032.500000 MHz
+--     RF LO Result: 1032.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1032.500000 MHz
+-- 
+-- Tune Request: 1032.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1032.500000 MHz
+--     RF LO Result: 1032.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1032.500000 MHz
+-- 
+-173.359035969
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1033750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1033.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1033.750000 MHz
+--     RF LO Result: 1033.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1033.750000 MHz
+-- 
+-- Tune Request: 1033.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1033.750000 MHz
+--     RF LO Result: 1033.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1033.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1033.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1033.750000 MHz
+--     RF LO Result: 1033.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1033.750000 MHz
+-- 
+-- Tune Request: 1033.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1033.750000 MHz
+--     RF LO Result: 1033.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1033.750000 MHz
+-- 
+-177.301717997
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1035000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1035.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1035.000000 MHz
+--     RF LO Result: 1034.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1035.000000 MHz
+-- 
+-- Tune Request: 1035.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1035.000000 MHz
+--     RF LO Result: 1034.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1035.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1035.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1035.000000 MHz
+--     RF LO Result: 1034.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1035.000000 MHz
+-- 
+-- Tune Request: 1035.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1035.000000 MHz
+--     RF LO Result: 1034.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1035.000000 MHz
+-- 
+-181.236857891
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1036250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1036.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1036.250000 MHz
+--     RF LO Result: 1036.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1036.250000 MHz
+-- 
+-- Tune Request: 1036.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1036.250000 MHz
+--     RF LO Result: 1036.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1036.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1036.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1036.250000 MHz
+--     RF LO Result: 1036.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1036.250000 MHz
+-- 
+-- Tune Request: 1036.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1036.250000 MHz
+--     RF LO Result: 1036.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1036.250000 MHz
+-- 
+-185.174278975
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1037500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1037.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1037.500000 MHz
+--     RF LO Result: 1037.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1037.500000 MHz
+-- 
+-- Tune Request: 1037.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1037.500000 MHz
+--     RF LO Result: 1037.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1037.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1037.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1037.500000 MHz
+--     RF LO Result: 1037.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1037.500000 MHz
+-- 
+-- Tune Request: 1037.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1037.500000 MHz
+--     RF LO Result: 1037.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1037.500000 MHz
+-- 
+-189.151114941
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1038750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1038.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1038.750000 MHz
+--     RF LO Result: 1038.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1038.750000 MHz
+-- 
+-- Tune Request: 1038.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1038.750000 MHz
+--     RF LO Result: 1038.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1038.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1038.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1038.750000 MHz
+--     RF LO Result: 1038.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1038.750000 MHz
+-- 
+-- Tune Request: 1038.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1038.750000 MHz
+--     RF LO Result: 1038.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1038.750000 MHz
+-- 
+-193.088371992
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1040000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1040.000000 MHz
+-- 
+-- Successfully tuned to 1040.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1040.000000 MHz
+-- 
+-- Successfully tuned to 1040.000000 MHz
+-- 
+-197.059859991
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1041250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1041.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1041.250000 MHz
+--     RF LO Result: 1041.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1041.250000 MHz
+-- 
+-- Tune Request: 1041.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1041.250000 MHz
+--     RF LO Result: 1041.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1041.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1041.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1041.250000 MHz
+--     RF LO Result: 1041.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1041.250000 MHz
+-- 
+-- Tune Request: 1041.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1041.250000 MHz
+--     RF LO Result: 1041.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1041.250000 MHz
+-- 
+-200.991131067
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1042500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1042.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1042.500000 MHz
+--     RF LO Result: 1042.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1042.500000 MHz
+-- 
+-- Tune Request: 1042.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1042.500000 MHz
+--     RF LO Result: 1042.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1042.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1042.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1042.500000 MHz
+--     RF LO Result: 1042.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1042.500000 MHz
+-- 
+-- Tune Request: 1042.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1042.500000 MHz
+--     RF LO Result: 1042.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1042.500000 MHz
+-- 
+-204.911487103
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1043750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1043.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1043.750000 MHz
+--     RF LO Result: 1043.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1043.750000 MHz
+-- 
+-- Tune Request: 1043.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1043.750000 MHz
+--     RF LO Result: 1043.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1043.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1043.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1043.750000 MHz
+--     RF LO Result: 1043.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1043.750000 MHz
+-- 
+-- Tune Request: 1043.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1043.750000 MHz
+--     RF LO Result: 1043.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1043.750000 MHz
+-- 
+-208.882571936
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1045000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1045.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1045.000000 MHz
+--     RF LO Result: 1044.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1045.000000 MHz
+-- 
+-- Tune Request: 1045.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1045.000000 MHz
+--     RF LO Result: 1044.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1045.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1045.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1045.000000 MHz
+--     RF LO Result: 1044.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1045.000000 MHz
+-- 
+-- Tune Request: 1045.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1045.000000 MHz
+--     RF LO Result: 1044.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1045.000000 MHz
+-- 
+-212.791455984
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1046250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1046.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1046.250000 MHz
+--     RF LO Result: 1046.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1046.250000 MHz
+-- 
+-- Tune Request: 1046.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1046.250000 MHz
+--     RF LO Result: 1046.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1046.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1046.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1046.250000 MHz
+--     RF LO Result: 1046.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1046.250000 MHz
+-- 
+-- Tune Request: 1046.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1046.250000 MHz
+--     RF LO Result: 1046.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1046.250000 MHz
+-- 
+-216.734315872
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1047500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1047.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1047.500000 MHz
+--     RF LO Result: 1047.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1047.500000 MHz
+-- 
+-- Tune Request: 1047.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1047.500000 MHz
+--     RF LO Result: 1047.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1047.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1047.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1047.500000 MHz
+--     RF LO Result: 1047.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1047.500000 MHz
+-- 
+-- Tune Request: 1047.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1047.500000 MHz
+--     RF LO Result: 1047.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1047.500000 MHz
+-- 
+-220.77037096
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1048750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1048.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1048.750000 MHz
+--     RF LO Result: 1048.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1048.750000 MHz
+-- 
+-- Tune Request: 1048.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1048.750000 MHz
+--     RF LO Result: 1048.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1048.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1048.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1048.750000 MHz
+--     RF LO Result: 1048.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1048.750000 MHz
+-- 
+-- Tune Request: 1048.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1048.750000 MHz
+--     RF LO Result: 1048.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1048.750000 MHz
+-- 
+-224.720736027
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1050000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1050.000000 MHz
+-- 
+-- Successfully tuned to 1050.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1050.000000 MHz
+-- 
+-- Successfully tuned to 1050.000000 MHz
+-- 
+-228.667561054
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1051250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1051.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1051.250000 MHz
+--     RF LO Result: 1051.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1051.250000 MHz
+-- 
+-- Tune Request: 1051.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1051.250000 MHz
+--     RF LO Result: 1051.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1051.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1051.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1051.250000 MHz
+--     RF LO Result: 1051.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1051.250000 MHz
+-- 
+-- Tune Request: 1051.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1051.250000 MHz
+--     RF LO Result: 1051.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1051.250000 MHz
+-- 
+-232.667326927
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1052500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1052.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1052.500000 MHz
+--     RF LO Result: 1052.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1052.500000 MHz
+-- 
+-- Tune Request: 1052.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1052.500000 MHz
+--     RF LO Result: 1052.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1052.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1052.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1052.500000 MHz
+--     RF LO Result: 1052.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1052.500000 MHz
+-- 
+-- Tune Request: 1052.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1052.500000 MHz
+--     RF LO Result: 1052.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1052.500000 MHz
+-- 
+-236.652276993
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1053750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1053.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1053.750000 MHz
+--     RF LO Result: 1053.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1053.750000 MHz
+-- 
+-- Tune Request: 1053.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1053.750000 MHz
+--     RF LO Result: 1053.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1053.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1053.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1053.750000 MHz
+--     RF LO Result: 1053.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1053.750000 MHz
+-- 
+-- Tune Request: 1053.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1053.750000 MHz
+--     RF LO Result: 1053.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1053.750000 MHz
+-- 
+-240.592647076
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1055000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1055.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1055.000000 MHz
+--     RF LO Result: 1054.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1055.000000 MHz
+-- 
+-- Tune Request: 1055.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1055.000000 MHz
+--     RF LO Result: 1054.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1055.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1055.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1055.000000 MHz
+--     RF LO Result: 1054.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1055.000000 MHz
+-- 
+-- Tune Request: 1055.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1055.000000 MHz
+--     RF LO Result: 1054.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1055.000000 MHz
+-- 
+-244.621326923
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1056250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1056.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1056.250000 MHz
+--     RF LO Result: 1056.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1056.250000 MHz
+-- 
+-- Tune Request: 1056.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1056.250000 MHz
+--     RF LO Result: 1056.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1056.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1056.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1056.250000 MHz
+--     RF LO Result: 1056.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1056.250000 MHz
+-- 
+-- Tune Request: 1056.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1056.250000 MHz
+--     RF LO Result: 1056.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1056.250000 MHz
+-- 
+-248.560551882
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1057500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1057.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1057.500000 MHz
+--     RF LO Result: 1057.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1057.500000 MHz
+-- 
+-- Tune Request: 1057.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1057.500000 MHz
+--     RF LO Result: 1057.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1057.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1057.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1057.500000 MHz
+--     RF LO Result: 1057.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1057.500000 MHz
+-- 
+-- Tune Request: 1057.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1057.500000 MHz
+--     RF LO Result: 1057.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1057.500000 MHz
+-- 
+-252.501852989
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1058750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1058.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1058.750000 MHz
+--     RF LO Result: 1058.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1058.750000 MHz
+-- 
+-- Tune Request: 1058.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1058.750000 MHz
+--     RF LO Result: 1058.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1058.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1058.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1058.750000 MHz
+--     RF LO Result: 1058.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1058.750000 MHz
+-- 
+-- Tune Request: 1058.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1058.750000 MHz
+--     RF LO Result: 1058.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1058.750000 MHz
+-- 
+-256.468085051
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1060000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1060.000000 MHz
+-- 
+-- Successfully tuned to 1060.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1060.000000 MHz
+-- 
+-- Successfully tuned to 1060.000000 MHz
+-- 
+-260.488332033
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1061250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1061.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1061.250000 MHz
+--     RF LO Result: 1061.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1061.250000 MHz
+-- 
+-- Tune Request: 1061.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1061.250000 MHz
+--     RF LO Result: 1061.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1061.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1061.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1061.250000 MHz
+--     RF LO Result: 1061.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1061.250000 MHz
+-- 
+-- Tune Request: 1061.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1061.250000 MHz
+--     RF LO Result: 1061.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1061.250000 MHz
+-- 
+-264.459578991
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1062500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1062.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1062.500000 MHz
+--     RF LO Result: 1062.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1062.500000 MHz
+-- 
+-- Tune Request: 1062.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1062.500000 MHz
+--     RF LO Result: 1062.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1062.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1062.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1062.500000 MHz
+--     RF LO Result: 1062.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1062.500000 MHz
+-- 
+-- Tune Request: 1062.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1062.500000 MHz
+--     RF LO Result: 1062.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1062.500000 MHz
+-- 
+-268.393320084
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1063750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1063.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1063.750000 MHz
+--     RF LO Result: 1063.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1063.750000 MHz
+-- 
+-- Tune Request: 1063.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1063.750000 MHz
+--     RF LO Result: 1063.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1063.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1063.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1063.750000 MHz
+--     RF LO Result: 1063.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1063.750000 MHz
+-- 
+-- Tune Request: 1063.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1063.750000 MHz
+--     RF LO Result: 1063.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1063.750000 MHz
+-- 
+-272.342590094
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1065000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1065.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1065.000000 MHz
+--     RF LO Result: 1064.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1065.000000 MHz
+-- 
+-- Tune Request: 1065.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1065.000000 MHz
+--     RF LO Result: 1064.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1065.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1065.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1065.000000 MHz
+--     RF LO Result: 1064.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1065.000000 MHz
+-- 
+-- Tune Request: 1065.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1065.000000 MHz
+--     RF LO Result: 1064.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1065.000000 MHz
+-- 
+-276.268621922
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1066250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1066.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1066.250000 MHz
+--     RF LO Result: 1066.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1066.250000 MHz
+-- 
+-- Tune Request: 1066.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1066.250000 MHz
+--     RF LO Result: 1066.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1066.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1066.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1066.250000 MHz
+--     RF LO Result: 1066.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1066.250000 MHz
+-- 
+-- Tune Request: 1066.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1066.250000 MHz
+--     RF LO Result: 1066.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1066.250000 MHz
+-- 
+-280.292094946
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1067500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1067.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1067.500000 MHz
+--     RF LO Result: 1067.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1067.500000 MHz
+-- 
+-- Tune Request: 1067.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1067.500000 MHz
+--     RF LO Result: 1067.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1067.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1067.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1067.500000 MHz
+--     RF LO Result: 1067.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1067.500000 MHz
+-- 
+-- Tune Request: 1067.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1067.500000 MHz
+--     RF LO Result: 1067.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1067.500000 MHz
+-- 
+-284.218250036
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1068750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1068.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1068.750000 MHz
+--     RF LO Result: 1068.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1068.750000 MHz
+-- 
+-- Tune Request: 1068.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1068.750000 MHz
+--     RF LO Result: 1068.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1068.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1068.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1068.750000 MHz
+--     RF LO Result: 1068.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1068.750000 MHz
+-- 
+-- Tune Request: 1068.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1068.750000 MHz
+--     RF LO Result: 1068.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1068.750000 MHz
+-- 
+-288.193922043
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1070000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1070.000000 MHz
+-- 
+-- Successfully tuned to 1070.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1070.000000 MHz
+-- 
+-- Successfully tuned to 1070.000000 MHz
+-- 
+-292.141680002
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1071250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1071.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1071.250000 MHz
+--     RF LO Result: 1071.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1071.250000 MHz
+-- 
+-- Tune Request: 1071.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1071.250000 MHz
+--     RF LO Result: 1071.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1071.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1071.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1071.250000 MHz
+--     RF LO Result: 1071.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1071.250000 MHz
+-- 
+-- Tune Request: 1071.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1071.250000 MHz
+--     RF LO Result: 1071.250000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1071.250000 MHz
+-- 
+-296.090841055
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1072500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1072.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1072.500000 MHz
+--     RF LO Result: 1072.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1072.500000 MHz
+-- 
+-- Tune Request: 1072.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1072.500000 MHz
+--     RF LO Result: 1072.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1072.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1072.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1072.500000 MHz
+--     RF LO Result: 1072.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1072.500000 MHz
+-- 
+-- Tune Request: 1072.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1072.500000 MHz
+--     RF LO Result: 1072.500000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1072.500000 MHz
+-- 
+-300.052422047
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1073750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1073.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1073.750000 MHz
+--     RF LO Result: 1073.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1073.750000 MHz
+-- 
+-- Tune Request: 1073.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1073.750000 MHz
+--     RF LO Result: 1073.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000000 MHz
+--     DSP Result: -0.000000 MHz
+--   Successfully tuned to 1073.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1073.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1073.750000 MHz
+--     RF LO Result: 1073.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1073.750000 MHz
+-- 
+-- Tune Request: 1073.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1073.750000 MHz
+--     RF LO Result: 1073.750000 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000000 MHz
+--     DSP Result: 0.000000 MHz
+--   Successfully tuned to 1073.750000 MHz
+-- 
+-304.094861984
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1075000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1075.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1075.000000 MHz
+--     RF LO Result: 1074.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1075.000000 MHz
+-- 
+-- Tune Request: 1075.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1075.000000 MHz
+--     RF LO Result: 1074.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1075.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1075.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1075.000000 MHz
+--     RF LO Result: 1074.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1075.000000 MHz
+-- 
+-- Tune Request: 1075.000000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1075.000000 MHz
+--     RF LO Result: 1074.999999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1075.000000 MHz
+-- 
+-308.133189917
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1076250000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1076.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1076.250000 MHz
+--     RF LO Result: 1076.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1076.250000 MHz
+-- 
+-- Tune Request: 1076.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1076.250000 MHz
+--     RF LO Result: 1076.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1076.250000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1076.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1076.250000 MHz
+--     RF LO Result: 1076.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1076.250000 MHz
+-- 
+-- Tune Request: 1076.250000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1076.250000 MHz
+--     RF LO Result: 1076.249999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1076.250000 MHz
+-- 
+-312.138810873
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1077500000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1077.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1077.500000 MHz
+--     RF LO Result: 1077.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1077.500000 MHz
+-- 
+-- Tune Request: 1077.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1077.500000 MHz
+--     RF LO Result: 1077.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1077.500000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1077.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1077.500000 MHz
+--     RF LO Result: 1077.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1077.500000 MHz
+-- 
+-- Tune Request: 1077.500000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1077.500000 MHz
+--     RF LO Result: 1077.499999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1077.500000 MHz
+-- 
+-316.083952904
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1078750000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1078.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1078.750000 MHz
+--     RF LO Result: 1078.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1078.750000 MHz
+-- 
+-- Tune Request: 1078.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1078.750000 MHz
+--     RF LO Result: 1078.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: -0.000001 MHz
+--     DSP Result: -0.000001 MHz
+--   Successfully tuned to 1078.750000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Tune Request: 1078.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1078.750000 MHz
+--     RF LO Result: 1078.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1078.750000 MHz
+-- 
+-- Tune Request: 1078.750000 MHz
+--   The RF LO does not support the requested frequency:
+--     Requested LO Frequency: 1078.750000 MHz
+--     RF LO Result: 1078.749999 MHz
+--   Attempted to use the DSP to reach the requested frequency:
+--     Desired DSP Frequency: 0.000001 MHz
+--     DSP Result: 0.000001 MHz
+--   Successfully tuned to 1078.750000 MHz
+-- 
+-320.034152031
+****
+Next..
+stopped
+Waiting for matlab command
+Command received
+1080000000.0
+****
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1080.000000 MHz
+-- 
+-- Successfully tuned to 1080.000000 MHz
+-- 
+-- Asking for clock rate 5.000000 MHz
+-- Actually got clock rate 5.000000 MHz
+-- Performing timer loopback test... pass
+-- Performing timer loopback test... pass
+-- Successfully tuned to 1080.000000 MHz
+-- 
+-- Successfully tuned to 1080.000000 MHz
+-- 

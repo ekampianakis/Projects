@@ -24,7 +24,7 @@ import socket
 import scipy.io as sio
 from timeout import timeout
 from timeout import TimeoutError
-
+import signal
 
 
 
@@ -41,19 +41,19 @@ center_freq = 915e6
 mclk = 10e6
 num_samples = 0
 
-# Simple
 
 
 
 def wait_for_command(connection):
  while True:
         print 'Waiting for matlab command'
-        data = connection.recv(16)
+        data = str(connection.recv(128))
         
-        if( str(data).startswith('PR')):
+
+        if( data.startswith('PR')):
             print 'Command received'
-            return
-        elif(str(data).startswith('EX')):
+            return data.strip('PR.')
+        elif(data.startswith('EX')):
             print 'Command received'
             print 'Exit command received..'
             raise KeyboardInterrupt     
@@ -169,7 +169,6 @@ if __name__ == '__main__':
         pass
 
 
-
     mat_contents = sio.loadmat(properties_file)
     tx_filename =  str(mat_contents['tx_filename'][0])
     rx_filename1 =  str(mat_contents['rx_filename1'][0])
@@ -187,6 +186,10 @@ if __name__ == '__main__':
     freq_step = float(mat_contents['FreqStep'][0][0])
 
 
+    
+    # mclk = 30e6
+    # samp_rate = 5e6
+
     print 'Fs = ' + repr(samp_rate/1e6)
     print 'Freq step = ' + repr(freq_step/1e6)
     print 'TX file = ' + repr(tx_filename)
@@ -195,7 +198,8 @@ if __name__ == '__main__':
     print 'RX file 1 = ' + repr(rx_filename1)
     print 'RX file 2 = ' + repr(rx_filename2)
     print 'TX time = ' + repr(tx_time)
- 
+
+
     tb = file_sinks()
     @timeout(the_timeout)
     def run_flowgraph(tb):
@@ -212,25 +216,44 @@ if __name__ == '__main__':
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         # Bind the socket to the port
         server_address = ('localhost', tcp_port)
-        print >>sys.stderr, 'Starting up on %s port %s' % server_address
+        print >>sys.stdout, 'Starting up on %s port %s' % server_address
         sock.bind(server_address)
         # Listen for incoming connections
         sock.listen(1)
+        
 
+        end = time.time()
+       
 
-
-
-        print >>sys.stderr, 'Waiting for matlab a connection...'
+        print >>sys.stdout, 'Waiting for matlab a connection...'
         connection, client_address = sock.accept()
-        print >>sys.stderr, 'Connection from', client_address
+        print >>sys.stdout, 'Connection from', client_address
+        
+        def handler(signum, frame):
+            print 'Exiting from signal', signum
+            connection.close()
+            socket.close()
+            sys.exit(1)
+
+
+        signal.signal(signal.SIGHUP, handler)
+
+
+
+
         timeouts = 0
         total = 0
         while(1):
             total = total + 1     
             try:
-                wait_for_command(connection)   
-                run_flowgraph(tb)            
-                center_freq = center_freq + freq_step
+                center_freq = float(wait_for_command(connection))   
+                print center_freq
+                print '****'                
+                start = time.time()
+                run_flowgraph(tb)
+                start = time.time()
+                print end - start 
+                print '****'                 
                 reply_to_command(connection,'Next..','MR\n')
                 print 'stopped'
             except(KeyboardInterrupt):
@@ -251,7 +274,10 @@ if __name__ == '__main__':
         
         while(1):     
             try:
-                run_flowgraph(tb)            
+                start = time.time()
+                run_flowgraph(tb)
+                end = time.time()
+                print end - start 
                 center_freq = center_freq + 1e6
                 print 'stopped'
                 # time.sleep(2)
@@ -261,5 +287,3 @@ if __name__ == '__main__':
                 print 'Timeout Error'
                 pass
             
-            
-        
