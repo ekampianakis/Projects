@@ -70,7 +70,7 @@ def reply_to_command(connection,print_msg,reply_msg):
 
 
 
-class file_sinks(gr.top_block):
+class my_top_block(gr.top_block):
 
     def __init__(self):
         # grc_wxgui.top_block_gui.__init__(self, title="File Sinks")
@@ -200,16 +200,16 @@ if __name__ == '__main__':
     print 'TX time = ' + repr(tx_time)
 
 
-    tb = file_sinks()
+    tb = my_top_block()
     @timeout(the_timeout)
     def run_flowgraph(tb):
-        tb = file_sinks()
+        tb = my_top_block()
         tb.start()
         tb.wait()
         tb.stop()
         tb.wait()
 
-    TCP = True
+    TCP = False
 
     if(TCP):
         # Create a TCP/IP socket
